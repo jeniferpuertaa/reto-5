@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-register {
+    width: 500px;
+    background: rgba(12, 6, 6, 0.781);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: Calibri;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+
+}
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
+
+.controls {
+    width: 100%;
+    background-color: #242424;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 14px;
+    font-size: 18px;
+    font-family: Calibri;
+    border: 1px solid #191970
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+
+}
+
+.form-register a {
+    color: lightgrey;
+    text-decoration: none;
+
+}
+
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.form-register botons {
+    width: 100%;
+    background: blue;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 20px 0;
+    font-size: 16px;
+
+}
+
+.section class title h1,
+h4 {
+    font-family: Calibri;
+
+}
+
+.h1 {
+    width: 15px;
+    height: 15px;
+
+}
+
+header {
+    width: 100;
+    height: 400;
+    background: #c2e59c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64b3f4, #c2e59c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+nav {
+    text-align: center;
+    padding: 30px 50px;
+}
+
+nav>a {
+    color: #4e5aca;
+    font-weight: 200;
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+
+nav>a:hover {
+    color: darkslategray;
+    text-decoration: underline;
+}
+
+
+header.titulo {
+    display: flex;
+    height: 350px;
+    width: 100;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0%;
+    width: 100;
+}
+
+footer {
+    position: absolute;
+    height: 50px;
+    line-height: 50px;
+    background: black;
+    color: white;
+    text-align: center;
+    left: 0;
+    width: 100%;
+}
